@@ -18,3 +18,14 @@
   text-align: center;
 }
 
+
+@media (max-width:425px) {
+
+  #galeria h2 {
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+  }
+}
+
