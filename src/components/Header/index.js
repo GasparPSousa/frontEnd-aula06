@@ -7,7 +7,7 @@ const Header = ({empresa}) => {
       <h1>{empresa}</h1>
       <nav>
         <ul>
-          <li><a href="#">Valorant</a></li>
+          <li><a href="/">Valorant</a></li>
           <li><a href="galeria">Vídeos</a></li>
           <li><a href="footer">Footer</a></li>
         </ul>
