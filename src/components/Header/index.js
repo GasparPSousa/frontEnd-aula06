@@ -8,8 +8,8 @@ const Header = ({empresa}) => {
       <nav>
         <ul>
           <li><a href="/">Valorant</a></li>
-          <li><a href="galeria">Vídeos</a></li>
-          <li><a href="footer">Footer</a></li>
+          <li><a href="#galeria">Vídeos</a></li>
+          <li><a href="#footer">Footer</a></li>
         </ul>
       </nav>
     </header>

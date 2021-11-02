@@ -6,6 +6,7 @@ const Galeria = () => {
 
   return(
     <section id="galeria">
+      <h2>Vídeos</h2>
       <div className="grid">
         <Video url="https://www.youtube.com/embed/WmopcSXDQa8" title="Bossa Nova Covers 2021 - Cool Music" />
         <Video url='https://www.youtube.com/embed/F2IyttjjPfM' title='Reggae Covers Popular Songs 2021' />

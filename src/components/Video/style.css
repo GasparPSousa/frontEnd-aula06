@@ -2,3 +2,9 @@
   height: 350px;
   width: 100%;
 }
+
+.grid-item h3 {
+  color: #f7f7f7;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
