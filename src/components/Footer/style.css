@@ -1,0 +1,23 @@
+#footer {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+#footer h3::first-letter {
+  color: #e21;
+}
+
+
+
+
+@media (max-width:321px) {
+  
+  #footer {
+    flex-wrap: wrap;
+  }
+}

@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import Galeria from './components/Galeria';
+import Footer from './components/Footer';
+
 
 function App() {
+
+  const nomeEmpresa = 'Rito Gomes'
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+    <Header empresa={nomeEmpresa}/>
+    <main>
+      <Banner>
+        <h2>O que é Valorant? </h2>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        A Riot Games apresenta VALORANT: um FPS tático 5x5 com personagens marcantes, mecânica de tiro precisa e habilidades únicas! Saiba mais sobre VALORANT e seu elenco incrível! Um jogo de tiro tático 5x5 com personagens originais.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </Banner>
+      <Galeria />
+    </main>
+    <Footer empresa={nomeEmpresa} />
+    </>
   );
 }
 
